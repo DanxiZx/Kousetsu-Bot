@@ -4,7 +4,7 @@ let handler = async (m, { isPrems, conn }) => {
 let img = './media/menus/Menu.jpg'; 
 
 let texto = `• 𝐌𝐄𝐍𝐔-𝐋𝐎𝐆𝐎𝐒 •
-•° 🔱 *LOGOS BY CROWBOT* 🔱 °•
+•° 🔱 *LOGOS BY KOUSETSU-BOT* 🔱 °•
 
 ┊➺ 🪩 .𝘭𝘰𝘨𝘰𝘤𝘰𝘳𝘢𝘻𝘰𝘯 (texto)
 ┊➺ 🪩 .𝘭𝘰𝘨𝘰𝘤𝘩𝘳𝘪𝘴𝘵𝘮𝘢𝘴 (texto)

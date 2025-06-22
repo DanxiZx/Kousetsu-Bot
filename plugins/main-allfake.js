@@ -32,7 +32,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
 //creador y otros
-global.creador = 'Wa.me/50557865603'
+global.creador = 'Wa.me/18493907272'
 global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}`
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/50557865603'
@@ -43,15 +43,15 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de CrowBot
-global.emoji = '🚩'
-global.emoji2 = '💛'
-global.emoji3 = '🌠'
-global.emoji4 = '🍭'
-global.emoji5 = '🔱'
+global.emoji = '❤️'
+global.emoji2 = '💋'
+global.emoji3 = '🌸'
+global.emoji4 = '✨'
+global.emoji5 = '💥'
 global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
 var facebook = 'https://www.facebook.com/profile.php?id=61574203539793'  
@@ -81,20 +81,20 @@ global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
-global.authsticker = `┊🤖 Bot Ofc\n┊↳ ${wm}\n\n┊👑 Usuario\n┊↳ @${conn.getName(m.sender)}\n`;
+global.authsticker = `┊ʀɪᴀsᴇᴍᴘᴀɪ-sᴛᴋ🍁\n┊↳ ${wm}\n\n┊🪪 Usuario\n┊↳ @${conn.getName(m.sender)}\n`;
 
-global.packsticker = `┊ 🔱 ᴛᴇᴀᴍ ᴍᴏᴏɴ ғᴏʀᴄᴇ\n↳https://crowbot-web.vercel.app/\n\n┊ 🎩 ɪɴғᴏʀᴍᴀᴄɪᴏɴ ᴏғᴄ\n↳https://github.com/WillZek/CrowBot-ST`
+global.packsticker = `┊ 🌸 ʜɪɢʜ sᴄʜᴏᴏʟ ᴄʟᴜʙ 🌸\n↳https://crowbot-web.vercel.app/\n\n┊ ⚪ ɪɴғᴏʀᴍᴀᴄɪᴏɴ ⚪\n↳https://github.com/DanxiZx/RiaSempai-MD`
 
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=50557865603:50557865603\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363377595441592@newsletter', newsletterName: "ᰔᩚ . ˚ Cһᥲᥒᥒᥱᥣ 〢Tᥱᥲm Sᥙᥒ Fᥣᥲrᥱ ֹ ☆", serverMessageId: -1 }
+global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363418746160323@newsletter', newsletterName: "ᰔᩚ . ˚ Cһᥲᥒᥒᥱᥣ 〢ʜɪɢʜ sᴄʜᴏᴏʟ ᴄʟᴜʙ ❀", serverMessageId: -1 }
 }}, { quoted: m }
 
 //Id Channel
-global.idchannel = '120363381910502266@newsletter'
-global.canalIdM = ["120363368073378190@newsletter", "120363387375075395@newsletter"]
-global.canalNombreM = ["✯ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✯", "⏤͟͟͞͞☆ 𝐂𝐫𝐨𝐰𝐁𝐨𝐭 𝐓𝐞𝐬𝐭 『𝐏𝐨𝐝𝐜𝐚𝐬𝐭』"]
+global.idchannel = '1120363418746160323@newsletter'
+global.canalIdM = ["120363418746160323@newsletter", "120363418746160323@newsletter"]
+global.canalNombreM = ["❀ 𝐇𝐢𝐠𝐡 𝐒𝐜𝐡𝐨𝐨𝐥 𝐂𝐥𝐮𝐛 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ❀ 𝐇𝐢𝐠𝐡 𝐒𝐜𝐡𝐨𝐨𝐥 𝐓𝐞𝐬𝐭 『𝐂𝐥𝐮𝐛𝐬𝐗𝐃』"]
 global.channelRD = await getRandomChannel()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icons, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}

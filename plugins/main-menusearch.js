@@ -10,7 +10,7 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“🕵️¡Hola! *%name*, a qui esta mi menu de busquedas"
+  before: `“🔎¡Hola! *%name*, a qui esta mi menu de busquedas"
 
 *─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ──ׄ*
 %readmore
@@ -25,7 +25,7 @@ let tags = {
 'buscador': 'Busquedas',
 }
 // let img = 'https://files.catbox.moe/w3s79j.jpg'
-let img = './media/menus/Menu.jpg';
+let img = 'https://files.catbox.moe/mffuot.jpg';
 
   try {
           // DEFAULT MENU

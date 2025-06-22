@@ -4,23 +4,23 @@ import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
 
 let tags = {
-  'crow': '👑「 *`MENUS KOUSETSU-BOT`* 」👑',
-  'main': '「INFO」🍨',
-  'buscador': '「BUSQUEDAS」🍨',
-  'fun': '「JUEGOS」🍨',
-  'serbot': '「SUB BOTS」🍨',
-  'rpg': '「RPG」🍨',
-  'rg': '「REGISTRO」🍨',
-  'sticker': '「STICKERS」🍨',
-  'emox': '「ANIMES」🍨',
-  'database': '「DATABASE」🍨',
-  'grupo': '「GRUPOS」🍨',
-  'nable': '「ON / OFF」', 
-  'descargas': '「DESCARGAS」🍨',
-  'tools': '「HERRAMIENTAS」🍨',
-  'info': '「INFORMACIÓN」🍨',
-  'owner': '「CREADOR」🍨',
-  'logos': '「EDICION LOGOS」🍨', 
+  'crow': '💋「 `𝗠𝗘𝗡𝗨 𝗥𝗜𝗔𝗦𝗘𝗠𝗣𝗔𝗜-𝗠𝗗` 」💋',
+  'main': '「INFO」ℹ️',
+  'buscador': '「BUSQUEDAS」🔎',
+  'fun': '「JUEGOS」🎮',
+  'serbot': '「SUB BOTS」🔰',
+  'rpg': '「RPG」⚔️',
+  'rg': '「REGISTRO」📝',
+  'sticker': '「STICKERS」🎯',
+  'emox': '「ANIMES」⛩️',
+  'database': '「DATABASE」🚀',
+  'grupo': '「GRUPOS」📚',
+  'nable': '「ON / OFF」🔴🟢', 
+  'descargas': '「DESCARGAS」📥',
+  'tools': '「HERRAMIENTAS」🛠️',
+  'info': '「INFORMACIÓN」🪪',
+  'owner': '「CREADOR」💌',
+  'logos': '「EDICION LOGOS」🖼️', 
 }
 
 const vid = 'https://cdnmega.vercel.app/media/dwx0CKRD@MmwtDrN7W6x4EIFtt4ss50UJpk-F2fFXJBueIW1IZR8';
@@ -28,22 +28,22 @@ const vid = 'https://cdnmega.vercel.app/media/dwx0CKRD@MmwtDrN7W6x4EIFtt4ss50UJp
 const defaultMenu = {
   before: `*•:•:•:•:•:•:•:•:•:•☾☼☽•:•.•:•.•:•:•:•:•:•*
 
-"「💛」 ¡Hola! *%name* %greeting, Para Ver Tu Perfil Usa *#perfil* ❒"
+"「❤️」 ¡Hola! *%name* %greeting, Para Ver Tu Perfil Usa *#perfil* ❒"
 
-╔━━━━━ *⊱𝐈𝐍𝐅𝐎 - 𝐁𝐎𝐓⊰*
-✦  👤 *Cliente:* %name
-✦  🔱 *Modo:* Público
-✧  ✨ *Baileys:* Multi Device
-✦  🪐 *Tiempo Activo:* %muptime
-✧  💫 *Usuarios:* %totalreg 
+╔━━━━━ *𝗜𝗡𝗙𝗢 - 𝗕𝗢𝗧*
+✿︎  👤 *Cliente:* %name
+✿︎  🎲 *Modo:* Público
+✿︎  🌱 *Baileys:* Multi Device
+✿︎  🕖 *Tiempo Activo:* %muptime
+✿︎  👨🏻‍💻 *Usuarios:* %totalreg 
 ╚━━━━━━━━━━━━━━
 %readmore
-*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*\n\n> Para Ser Un Sub Bots Usa #code para codigo de 8 dígitos y #qr para codigo qr.
+*✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧⋄⋆⋅⋆⋄✧*\n\n> *Para Ser Un Sub Bots Usa #code para codigo de 8 dígitos y #qr para codigo qr.*
 
-\t*(✰◠‿◠) 𝐂 𝐨 𝐦 𝐚 𝐧 𝐝 𝐨 𝐬*   
+\ 𝗖 𝗢 𝗠 𝗔 𝗡 𝗗 𝗢 𝗦*   
 `.trimStart(),
   header: '͜ ۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n┊➳ %category \n͜ ۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜',
-  body: '*┃⏤͟͟͞͞🍭➤›* %cmd',
+  body: '*┃⏤͟͟͞͞🔴➤›* %cmd',
   footer: '*┗━*\n',
   after: `> ${dev}`,
 }
@@ -137,7 +137,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
-botofc: (conn.user.jid == global.conn.user.jid ? '💛 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `💛 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
+botofc: (conn.user.jid == global.conn.user.jid ? '🔴 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🔴 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',

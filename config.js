@@ -50,7 +50,7 @@ global.author = '𝐌𝐚𝐝𝐞 𝐁𝐲 𝐇𝐢𝐠𝐡 𝐒𝐜𝐡𝐨𝐨
 global.dev = '© 𝚖𝚊𝚍𝚎 𝚋𝚢 𝚑𝚒𝚐𝚑 𝚜𝚌𝚑𝚘𝚘𝚕 𝚌𝚕𝚞𝚋𝚜'
 global.espera = '𝗡𝘆𝗮 𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 𝗲𝘀𝘁𝗼𝘆 𝗘𝗻𝘃𝗶𝗮𝗻𝗱𝗼 𝗦𝘂 𝗣𝗲𝗱𝗶𝗱𝗼 ☺️'
 global.namebot = '𝗥𝗲𝗶𝗦𝗲𝗺𝗽𝗮𝗶-𝗠𝗗'
-global.textbot = `「 🔱🌸 𝙍𝙄𝘼𝙎𝙀𝙈𝙋𝘼𝙄-𝘽𝙊𝙏 🌸 」`
+global.textbot = `「 🌸 𝙍𝙄𝘼𝙎𝙀𝙈𝙋𝘼𝙄-𝘽𝙊𝙏 🌸 」`
 global.vs = '2.2.0'
 global.publi = '𝙨𝙞𝙜𝙪𝙚 𝙈𝙞 𝘾𝙖𝙣𝙖𝙡 𝘼𝙧𝙞𝙜𝙖𝙩𝙤 𝙉𝙮𝙖 ☺️💋'
 

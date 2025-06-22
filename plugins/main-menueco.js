@@ -10,7 +10,7 @@ import fetch from 'node-fetch'
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 
 const defaultMenu = {
-  before: `“💸 ¡Hola! *%name*, a qui esta mi menu de economía"
+  before: `“💵 ¡Hola! *%name*, a qui esta mi menu de economía"
 
 *─ׄ─ׄ─⭒─ׄ─ׅ─ׄ⭒─ׄ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׅ──ׄ*
 %readmore
@@ -18,7 +18,7 @@ Menu Para Coneguir Estrellas Y Usarlas En El Bot✨
 %readmore
 `.trimStart(),
   header: '┏━━⪩「 *_`%category`_* 」⪨',
-  body: '┃『🪙』 %cmd\n',
+  body: '┃『💵』 %cmd\n',
   footer: '┗━━━━━━━━━━━━━━━━⪩\n',
   after: ``,
 }
@@ -27,7 +27,7 @@ let tags = {
 'rpg': 'MenuEconomia',
 }
 // let img = 'https://files.catbox.moe/w1ltfq.jpg'
-let img = './media/menus/Menu.jpg';
+let img = 'https://files.catbox.moe/lsxa1v.jpg';
 
   try {
           // DEFAULT MENU

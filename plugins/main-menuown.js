@@ -25,7 +25,7 @@ let tags = {
 'owner': 'MenuOwner',
 }
 // let img = 'https://files.catbox.moe/w3s79j.jpg'
-let img = 'https://files.catbox.moe/4erg6y.jpg';
+let img = 'https://files.catbox.moe/b0zj9s.jpg';
 
   try {
           // DEFAULT MENU

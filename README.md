@@ -1,5 +1,5 @@
-﻿<h1 align="center">❤️𝗥𝗜𝗔𝗦-𝗦𝗘𝗠𝗣𝗔𝗜-𝗕𝗢𝗧❤️</h1>  
-<p align="center"><i>🔴𝙎𝙀𝙈𝙋𝘼𝙄-𝙎𝙐𝙋𝙀𝙍-𝘽𝙊𝙏🔴</i></p>
+﻿<h1 align="center">𝗥𝗜𝗔𝗦-𝗦𝗘𝗠𝗣𝗔𝗜-𝗕𝗢𝗧</h1>  
+<p align="center"><i>🔴𝙎𝙀𝙈𝙋𝘼𝙄-𝘽𝙊𝙏🔴</i></p>
 
 <p align="center">
   <img src="https://files.catbox.moe/9xds5k.jpg" width="700"/>

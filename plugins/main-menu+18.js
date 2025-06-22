@@ -1,8 +1,8 @@
 let handler = async (m, { isPrems, conn }) => {
 
-let img = 'https://files.catbox.moe/16bm7g.jpg' 
+let img = 'https://files.catbox.moe/wqa0ru.jpg' 
 let texto = `• 𝐌𝐄𝐍𝐔 +18 •
-「 🔞 *COMANDOS NOPOR* 🔞 」
+「 🔥🔞 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘽𝙔 𝙎𝙀𝙈𝙋𝘼𝙄-𝙍𝙄𝘼𝙎 🔞🔥 」
 
 ║➤ ❤️‍🔥 _.xnxxsearch_ (texto)
 ║➤ ❤️‍🔥 _.xnxxdl_ (link)
@@ -24,7 +24,7 @@ let texto = `• 𝐌𝐄𝐍𝐔 +18 •
         text: texto,
         contextInfo: {
         externalAdReply: {
-        title: '𓂂𓏸  𐅹੭੭ ᴍᴇɴᴜ ᴅᴇ ᴘᴏʀɴᴏɢʀᴀғɪᴀ 🌙 ᦡᦡ',
+        title: '   ᴍᴇɴᴜ ᴅᴇ ᴘᴏʀɴᴏɢʀᴀғɪᴀ 🌙',
         body: dev,
         thumbnailUrl: img,
         sourceUrl: channel,

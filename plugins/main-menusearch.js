@@ -182,7 +182,7 @@ await m.react('🔦')
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𓂂𓏸  𐅹੭੭ ᴍᴇɴᴜ ᴅᴇ ʙᴜsǫᴜᴇᴅᴀs🌙 ᦡᦡ',
+        title: ' ᴍᴇɴᴜ ᴅᴇ ʙᴜsǫᴜᴇᴅᴀs ʙʏ ʀɪᴀsᴇᴍᴘᴀɪ 🔎',
         body: dev,
         thumbnailUrl: img,
         sourceUrl: channel,

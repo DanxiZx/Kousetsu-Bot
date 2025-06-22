@@ -35,7 +35,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/18493907272'
 global.botreal = `${(conn.user.jid == global.conn.user.jid ? 'Oficial' : 'Sub-Bot')}`
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/50557865603'
+global.asistencia = 'Wa.me/18493907272'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -54,10 +54,10 @@ global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
 
 //Enlaces
-var facebook = 'https://www.facebook.com/profile.php?id=61574203539793'  
-var github = 'https://github.com/WillZek/CrowBot-ST' 
-var web = 'https://crowbot-web.vercel.app/' 
-let instagram = 'https://www.instagram.com/crowbot_wa'
+var facebook = '.'  
+var github = 'https://github.com/DanxiZx/RiaSempai-MD' 
+var web = 'https://erenxsofc01.hellofigwebsite.com/' 
+let instagram = '.'
 
 global.redes = [facebook, github, web, instagram].getRandom()
 

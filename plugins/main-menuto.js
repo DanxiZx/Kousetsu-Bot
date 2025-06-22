@@ -25,7 +25,7 @@ let tags = {
 'tools': 'MenuTools',
 }
 // let img = 'https://files.catbox.moe/w3s79j.jpg'
-let img = './media/menus/Menu.jpg';
+let img = 'https://files.catbox.moe/b0zj9s.jpg';
 
   try {
           // DEFAULT MENU
@@ -182,7 +182,7 @@ await m.react('⚙️')
         text: text,
         contextInfo: {
         externalAdReply: {
-        title: '𓂂𓏸  𐅹੭੭ ᴍᴇɴᴜ ᴅᴇ ᴛᴏᴏʟs 🌙 ᦡᦡ',
+        title: 'ᴍᴇɴᴜ ʜᴇʀʀᴀᴍɪᴇɴᴛᴀ ʙʏ ʀɪᴀsᴇᴍᴘᴀɪ',
         body: dev,
         thumbnailUrl: img,
         sourceUrl: channel,

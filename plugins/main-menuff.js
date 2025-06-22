@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 
-let img = 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1744692075843.jpeg' // Link De La Imagen By The-King-Destroy
+let img = 'https://files.catbox.moe/khxdmi.jpg' // Link De La Imagen By The-King-Destroy
 
 let texto = `> > 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙁𝙍𝙀𝙀 𝙁𝙄𝙍𝙀 👑. 
  

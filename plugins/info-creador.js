@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     // VCARD
     let list = [{
         displayName: "𝙀𝙍𝙀𝙉𝙓𝙎-𝙈𝘿𝘽𝙒 🚀",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: ʜɪɢʜ sᴄʜᴏᴏʟ ᴄʟᴜʙ🍭\nitem1.TEL;waid=50557865603:50557865603\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: ninopina10@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/crowbot_wa\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Nicaragua;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: ʜɪɢʜ sᴄʜᴏᴏʟ ᴄʟᴜʙ🍭\nitem1.TEL;waid=50557865603:50557865603\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: erexs01@gmail.com\nitem2.X-ABLabel:Email\nitem3.\nitem3.X-ABLabel:Internet\nitem4.ADR:;; República Dominicana;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 title: '𝑯𝒐𝒍𝒂 𝑺𝒐𝒚 𝑬𝒓𝒆𝒏𝒙𝒔 𝑴𝒐𝒅𝒊𝒇𝒊𝒄𝒂𝒅𝒐𝒓 𝑫𝒆 𝑩𝒐𝒕𝒔 𝑷𝒂𝒓𝒂 𝑾𝒉𝒂𝒕𝒔𝒂𝒑𝒑',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/dey7uk.jpg',
-                sourceUrl: 'https://github.com/WillZek',
+                sourceUrl: 'https://github.com/DanxiZx',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }

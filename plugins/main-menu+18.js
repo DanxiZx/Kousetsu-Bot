@@ -24,7 +24,7 @@ let texto = `• 𝐌𝐄𝐍𝐔 +18 •
         text: texto,
         contextInfo: {
         externalAdReply: {
-        title: '   ᴍᴇɴᴜ ᴅᴇ ᴘᴏʀɴᴏɢʀᴀғɪᴀ 🌙',
+        title: '   ᴍᴇɴᴜ ᴅᴇ ᴘᴏʀɴᴏɢʀᴀғɪᴀ ʙʏ ʀɪᴀsᴇᴍᴘᴀɪ 🔞',
         body: dev,
         thumbnailUrl: img,
         sourceUrl: channel,
